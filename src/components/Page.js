@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
-import Navigation from './Navigation';
-import Header from './Header';
-import Main from './Main';
+import React, { Component } from "react";
+import Navigation from "./Navigation";
+import Header from "./Header";
+import Main from "./Main";
 
 export class Page extends Component {
   constructor(props) {
@@ -9,8 +9,8 @@ export class Page extends Component {
     this.state = {
       itemIdx: 0,
       isActive: false,
-      pageSlug: '',
-      pageHeader: '',
+      pageSlug: "",
+      pageHeader: "",
     };
     this.handleClick = this.handleClick.bind(this);
   }
